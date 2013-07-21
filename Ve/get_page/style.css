@@ -1,0 +1,146 @@
+
+div.container {
+	margin-top:100px;
+	left:50%;
+	margin-left: auto;
+	margin-right:auto;
+	width:600px;
+	max-width:90%;
+}
+img.pic {
+	max-width:100%;
+	height:auto;
+	width:100%;
+}
+* {
+	font-family:"Open Sans", sans-serif;
+}
+span {
+	font-size:70%;
+}
+h1 {
+	text-align:center;
+	font-size:150%;
+	font-family:sans-serif;
+}
+
+body {
+	background-color:#ffffff;
+	font-size:12pt;
+}
+
+div.header {
+	position:fixed;
+	z-index:9;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	background-color:#2c3e50;
+}
+
+div.right {
+	right:0px;
+	position:absolute;
+	width:100px;
+	height:50px;
+	top:0px;
+}
+
+div.bigger {
+	top:0px;
+	position:absolute;
+	height:50px;
+	right:0px;
+	
+	width:50px;
+	background:url("tup.png");
+	background-size:100%;
+}
+div.smaller {
+	top:0px;
+	position:absolute;
+	right:50px;
+	width:50px;
+	height:50px;
+	background-size:100%;
+	background:url("tdown.png");
+	background-size:100%;
+}
+
+div.back {
+	left:0px;
+	height:50px;
+	width:50px;
+	top:0px;
+	position:absolute;
+	background:url("tleft.png");
+	background-size:100%;
+}
+div.back:hover, div.smaller:hover, div.bigger:hover {
+	background-color:#34495e;
+	cursor:pointer;
+}
+
+#search {
+	top:0px;
+	left:50px;
+	right:0px;
+	height:50px;
+	position:absolute;
+	background-color:rgba(0,0,0,0);
+	border:none;
+	color:#ffffff;
+	font-weight:bold;
+	font-size: 18pt;
+	text-align:center;
+}
+div.objects {
+	margin-top:100px;
+
+
+}
+
+#un, #pn {
+
+	position:relative;
+	width:100%;
+	border:none;
+	border-bottom: 1px dotted rgba(0,0,0,0.4);
+	height:40px;
+	margin:20px;
+	text-align:center;
+}
+
+input[type="button"] {
+	background-color:#2c3e50;
+	left:0px;
+	width:100%;
+	border:none;
+	margin:20px;
+	height:40px;
+	color:#ffffff;
+}
+
+div.item {
+	border-bottom: 1px dashed rgba(0,0,0,0.3);
+	padding-bottom:40px;
+}
+p.italic {
+	font-style:italic;
+	text-align:center;
+}
+/*
+<div class="header">
+			<div class="back">
+			</div>
+			<div class="right">
+				<div class="bigger">
+				</div>
+				<div class="smaller">
+				</div>
+				<div class="summarise">
+				</div>
+			</div>
+		</div>
+*/

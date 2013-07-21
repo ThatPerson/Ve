@@ -1,0 +1,23 @@
+[20-Jul-2013 08:12:48 UTC] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 in /home/bentatma/public_html/test/Ve/get_page/index.php on line 19
+[20-Jul-2013 08:12:48 UTC] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 in /home/bentatma/public_html/test/Ve/get_page/index.php on line 19
+[20-Jul-2013 08:13:04 UTC] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Unknown modifier 'l' in /home/bentatma/public_html/test/Ve/get_page/index.php on line 19
+[20-Jul-2013 08:13:05 UTC] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Unknown modifier 'l' in /home/bentatma/public_html/test/Ve/get_page/index.php on line 19
+[20-Jul-2013 08:19:39 UTC] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: No ending delimiter '/' found in /home/bentatma/public_html/test/Ve/get_page/index.php on line 21
+[20-Jul-2013 11:11:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/bentatma/public_html/test/Ve/get_page/index.php on line 48
+[20-Jul-2013 11:14:51 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 14
+[20-Jul-2013 11:15:48 UTC] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Empty query in /home/bentatma/public_html/test/Ve/get_page/index.php on line 20
+[20-Jul-2013 11:16:50 UTC] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Empty query in /home/bentatma/public_html/test/Ve/get_page/index.php on line 20
+[20-Jul-2013 11:16:52 UTC] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Empty query in /home/bentatma/public_html/test/Ve/get_page/index.php on line 20
+[20-Jul-2013 11:17:42 UTC] PHP Warning:  substr() expects parameter 3 to be long, string given in /home/bentatma/public_html/test/Ve/get_page/index.php on line 49
+[20-Jul-2013 11:33:24 UTC] PHP Warning:  file_get_contents(s) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/bentatma/public_html/test/Ve/get_page/simple_html_dom.php on line 76
+[20-Jul-2013 11:33:24 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 11
+[20-Jul-2013 11:36:09 UTC] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in /home/bentatma/public_html/test/Ve/get_page/simple_html_dom.php on line 76
+[20-Jul-2013 11:36:09 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 11
+[20-Jul-2013 11:45:57 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/bentatma/public_html/test/Ve/get_page/page.php on line 20
+[20-Jul-2013 13:29:22 UTC] PHP Warning:  file_get_contents(www.setithing.co,uk) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/bentatma/public_html/test/Ve/get_page/simple_html_dom.php on line 76
+[20-Jul-2013 13:29:22 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 11
+[20-Jul-2013 13:29:29 UTC] PHP Warning:  file_get_contents(www.setithing.co.uk) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/bentatma/public_html/test/Ve/get_page/simple_html_dom.php on line 76
+[20-Jul-2013 13:29:29 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 11
+[20-Jul-2013 17:13:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bentatma/public_html/test/Ve/get_page/logout.php:6) in /home/bentatma/public_html/test/Ve/get_page/logout.php on line 7
+[20-Jul-2013 21:14:12 UTC] PHP Warning:  file_get_contents(www.bentatman.co.uk) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/bentatma/public_html/test/Ve/get_page/simple_html_dom.php on line 76
+[20-Jul-2013 21:14:12 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/bentatma/public_html/test/Ve/get_page/index.php on line 11
